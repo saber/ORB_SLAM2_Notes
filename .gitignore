@@ -1,0 +1,40 @@
+# 忽略 TODO 文件
+TODO.md
+others/
+
+# 忽略编译目录
+ORB_SLAM2/_builds
+ORB_SLAM2/_build
+ORB_SLAM2/build
+ORB_SLAM2/cmake-build-debug/
+
+# orb-slam2 自带的
+ORB_SLAM2/CMakeLists.txt.user
+ORB_SLAM2/Examples/Monocular/mono_euroc
+ORB_SLAM2/Examples/Monocular/mono_kitti
+ORB_SLAM2/Examples/Monocular/mono_tum
+ORB_SLAM2/Examples/RGB-D/rgbd_tum
+ORB_SLAM2/Examples/ROS/ORB_SLAM2/CMakeLists.txt.user
+ORB_SLAM2/Examples/ROS/ORB_SLAM2/Mono
+ORB_SLAM2/Examples/ROS/ORB_SLAM2/MonoAR
+ORB_SLAM2/Examples/ROS/ORB_SLAM2/RGBD
+ORB_SLAM2/Examples/ROS/ORB_SLAM2/Stereo
+ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/
+ORB_SLAM2/Examples/Stereo/stereo_euroc
+ORB_SLAM2/Examples/Stereo/stereo_kitti
+ORB_SLAM2/KeyFrameTrajectory.txt
+ORB_SLAM2/Thirdparty/DBoW2/build/
+ORB_SLAM2/Thirdparty/DBoW2/lib/
+ORB_SLAM2/Thirdparty/g2o/build/
+ORB_SLAM2/Thirdparty/g2o/config.h
+ORB_SLAM2/Thirdparty/g2o/lib/
+ORB_SLAM2/Vocabulary/ORBvoc.txt
+ORB_SLAM2/build/
+ORB_SLAM2/*~
+ORB_SLAM2/lib/
+
+#忽略由于 atom 产生的 .gch文件
+include/**/*.gch
+src/**/*.gch
+
+
